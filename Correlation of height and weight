@@ -1,0 +1,4 @@
+import pandas as pd
+d = {"Height": [150, 160, 170, 180], "Weight": [50, 65, 68, 80]}
+df = pd.DataFrame(d)
+print(df.corr())
