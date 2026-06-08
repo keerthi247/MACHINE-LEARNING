@@ -1,0 +1,2 @@
+prediction = knn_predict(training_data, training_labels, test_point, k)
+print(prediction)
